@@ -3,11 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "VentasAbarrotes": {
+    "AbarrotesVentas": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "sass"
         },
         "@schematics/angular:application": {
           "strict": true
@@ -20,18 +20,18 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ventas-abarrotes",
+            "outputPath": "dist/abarrotes-ventas",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
+            "inlineStyleLanguage": "sass",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.sass"
             ],
             "scripts": []
           },
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "VentasAbarrotes:build:production"
+              "browserTarget": "AbarrotesVentas:build:production"
             },
             "development": {
-              "browserTarget": "VentasAbarrotes:build:development"
+              "browserTarget": "AbarrotesVentas:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "VentasAbarrotes:build"
+            "browserTarget": "AbarrotesVentas:build"
           }
         },
         "test": {
@@ -93,13 +93,13 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "inlineStyleLanguage": "scss",
+            "inlineStyleLanguage": "sass",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.sass"
             ],
             "scripts": []
           }
