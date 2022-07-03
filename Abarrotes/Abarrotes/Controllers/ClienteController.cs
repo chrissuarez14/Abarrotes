@@ -3,11 +3,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Abarrotes.Models.Request;
 using Abarrotes.Models.Response;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Abarrotes.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+    //si no se tiene token no podra acceder  metdos
+    [Authorize]
     public class ClienteController : ControllerBase
     {
         [HttpGet]

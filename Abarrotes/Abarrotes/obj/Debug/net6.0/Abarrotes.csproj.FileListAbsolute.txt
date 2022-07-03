@@ -120,3 +120,5 @@ C:\Users\Christian Suarez\Documents\Develop\Abarrotes\Abarrotes\obj\Debug\net6.0
 C:\Users\Christian Suarez\Documents\Develop\Abarrotes\Abarrotes\obj\Debug\net6.0\Abarrotes.pdb
 C:\Users\Christian Suarez\Documents\Develop\Abarrotes\Abarrotes\obj\Debug\net6.0\Abarrotes.genruntimeconfig.cache
 C:\Users\Christian Suarez\Documents\Develop\Abarrotes\Abarrotes\obj\Debug\net6.0\ref\Abarrotes.dll
+C:\Users\Christian Suarez\Documents\Develop\Abarrotes\Abarrotes\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Christian Suarez\Documents\Develop\Abarrotes\Abarrotes\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
