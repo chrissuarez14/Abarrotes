@@ -1,4 +1,18 @@
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                            builder => {
+                                builder.WithHeaders("*");
+                                builder.WithOrigins("*");
+
+                            }); //Con esto nos permite cualquier navegador, si queremos restrir a uno solo lo ponemos aqui
+});
 
 // Add services to the container.
 
@@ -17,6 +31,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthorization();
 

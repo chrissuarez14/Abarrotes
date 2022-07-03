@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HFLuJ302pRnp4um7lb1iV++R3CX9kemz4yVdnN353Z0GIHBxG/vBZ2VW28Oten4Gi57+znZ4MGvYb/8FpmqKdw==",
+  "dgSpecHash": "wIR24vxprBXpwXQWxiFpibDWvrzq/WswNs7v4VChFaG1aec3Tl1wlK/P76gf9wAmE/z+VlpwjhRnxwkFisxKRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Christian Suarez\\Desktop\\Cursos\\02-C#\\02-Abarrotes\\Abarrotes\\Abarrotes\\Abarrotes.csproj",
+  "projectFilePath": "C:\\Users\\Christian Suarez\\Documents\\Develop\\Abarrotes\\Abarrotes\\Abarrotes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Christian Suarez\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Christian Suarez\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

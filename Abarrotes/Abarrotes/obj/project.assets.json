@@ -2065,11 +2065,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Christian Suarez\\Desktop\\Cursos\\02-C#\\02-Abarrotes\\Abarrotes\\Abarrotes\\Abarrotes.csproj",
+      "projectUniqueName": "C:\\Users\\Christian Suarez\\Documents\\Develop\\Abarrotes\\Abarrotes\\Abarrotes.csproj",
       "projectName": "Abarrotes",
-      "projectPath": "C:\\Users\\Christian Suarez\\Desktop\\Cursos\\02-C#\\02-Abarrotes\\Abarrotes\\Abarrotes\\Abarrotes.csproj",
+      "projectPath": "C:\\Users\\Christian Suarez\\Documents\\Develop\\Abarrotes\\Abarrotes\\Abarrotes.csproj",
       "packagesPath": "C:\\Users\\Christian Suarez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Christian Suarez\\Desktop\\Cursos\\02-C#\\02-Abarrotes\\Abarrotes\\Abarrotes\\obj\\",
+      "outputPath": "C:\\Users\\Christian Suarez\\Documents\\Develop\\Abarrotes\\Abarrotes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Christian Suarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
